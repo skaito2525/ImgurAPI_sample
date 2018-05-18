@@ -1,0 +1,8 @@
+<%= form_tag("/upload", {multipart: true}) do %>
+  <p>画像の名前</p>
+  <input name="name">
+  <p>画像の選択</p>
+  <input type="file" name="image">
+  <input type="submit">
+
+<% end %>

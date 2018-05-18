@@ -1,0 +1,6 @@
+<h2>sample</h2>
+<% @images.each do |image| %>
+  <p> <%= image.name %> </p>
+  <p> <%= image_tag image.image_url, :size => "640x400" %> </p>
+
+<% end %>
